@@ -7,6 +7,7 @@ import DigitalToolsSection from "./Components/DigitalToolsSection";
 import { ToastContainer } from "react-toastify";
 import GetStartedSection from "./Components/GetStartedSection";
 import PricingSection from "./Components/PricingSection";
+import Footer from "./Components/Footer";
 
 function App() {
   const [section, setSection] = useState("products");
@@ -25,6 +26,7 @@ function App() {
       />
       <GetStartedSection />
       <PricingSection />
+      <Footer />
       <ToastContainer />
     </>
   );
