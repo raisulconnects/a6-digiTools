@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals getting started with basic features.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic analytics", "Email support"],
+    "icon": "📦"
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Ideal for professionals who need advanced tools.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "Advanced analytics", "Priority support"],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Plan",
+    "description": "Best for teams and large organizations.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Dedicated manager"
+    ],
+    "icon": "🏢"
+  },
+  {
+    "id": 4,
+    "name": "Lifetime Access",
+    "description": "One-time purchase with lifetime updates.",
+    "price": 199,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "All features included",
+      "Lifetime updates",
+      "Premium support"
+    ],
+    "icon": "💎"
+  },
+  {
+    "id": 5,
+    "name": "Basic Yearly",
+    "description": "Affordable yearly plan for beginners.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Basic analytics", "Community support"],
+    "icon": "📅"
+  },
+  {
+    "id": 6,
+    "name": "Premium Yearly",
+    "description": "Advanced features with yearly savings.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["200+ templates", "Advanced analytics", "24/7 support"],
+    "icon": "🔥"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Pack",
+    "description": "Tailored for freelancers and solo creators.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ templates", "Client management", "Export to PDF"],
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "name": "Student Plan",
+    "description": "Budget-friendly plan for students.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["15+ templates", "Basic customization", "Email support"],
+    "icon": "🎓"
+  }
+]

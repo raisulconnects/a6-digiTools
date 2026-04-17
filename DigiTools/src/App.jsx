@@ -3,15 +3,23 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import StatsSection from "./Components/StatsSection";
+import DigitalToolsSection from "./Components/DigitalToolsSection";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [section, setSection] = useState("products");
+  const [cartItems, setCartItems] = useState([]);
 
   return (
     <>
       <Navbar />
       <HeroSection />
       <StatsSection />
+      <DigitalToolsSection
+        section={section}
+        setSection={setSection}
+        cartItems={cartItems}
+        setCartItems={setCartItems}
+      />
     </>
   );
 }
