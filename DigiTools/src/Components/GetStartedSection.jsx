@@ -1,7 +1,7 @@
 export default function GetStartedSection() {
   return (
     <div className="flex flex-col justify-center items-center gap-10 mx-auto max-w-7xl py-10">
-      <h1 className="text-6xl font-bold">Get Started In 3 Steps</h1>
+      <h1 className="text-5xl font-bold">Get Started In 3 Steps</h1>
       <p className="text-gray-400 text-[20px]">
         Start using premium digital tools in minutes, not hours.
       </p>

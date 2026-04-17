@@ -6,6 +6,7 @@ import StatsSection from "./Components/StatsSection";
 import DigitalToolsSection from "./Components/DigitalToolsSection";
 import { ToastContainer } from "react-toastify";
 import GetStartedSection from "./Components/GetStartedSection";
+import PricingSection from "./Components/PricingSection";
 
 function App() {
   const [section, setSection] = useState("products");
@@ -23,6 +24,7 @@ function App() {
         setCartItems={setCartItems}
       />
       <GetStartedSection />
+      <PricingSection />
       <ToastContainer />
     </>
   );
