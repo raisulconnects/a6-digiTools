@@ -5,6 +5,7 @@ import HeroSection from "./Components/HeroSection";
 import StatsSection from "./Components/StatsSection";
 import DigitalToolsSection from "./Components/DigitalToolsSection";
 import { ToastContainer } from "react-toastify";
+import GetStartedSection from "./Components/GetStartedSection";
 
 function App() {
   const [section, setSection] = useState("products");
@@ -21,6 +22,7 @@ function App() {
         cartItems={cartItems}
         setCartItems={setCartItems}
       />
+      <GetStartedSection />
       <ToastContainer />
     </>
   );
