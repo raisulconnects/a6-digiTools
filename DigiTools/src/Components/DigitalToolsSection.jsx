@@ -11,7 +11,7 @@ export default function DigitalToolsSection({
     <div className="flex flex-col justify-center items-center gap-20 mx-auto max-w-7xl py-10">
       <div className="text-center">
         <h1 className="font-extrabold text-[48px]">Premium Digital Tools</h1>
-        <h2 className="text-[16px] text-[#627382] mt-2">
+        <h2 className="text-[16px] text-[#627382] mt-2 mx-5">
           Choose from our curated collection of premium digital products
           designed <br />
           to boost your productivity and creativity.

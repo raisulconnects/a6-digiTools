@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <>
-      <div className="flex justify-between px-50 bg-[#101727] text-white py-30">
-        <div>
+      <div className="flex flex-col md:flex-row justify-between px-50 bg-[#101727] text-white py-30">
+        <div className="mb-10">
           <h1 className="text-4xl font-bold">DigiTools</h1>
           <p className="text-gray-300 mt-5">
             Premium digital tools for creators, <br /> professionals, and
@@ -10,7 +10,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div>
+        <div className="mb-10">
           <ul className="flex flex-col gap-2">
             <li className="text-2xl cursor-pointer">Product</li>
             <li className="text-[15px] text-gray-300 cursor-pointer">
@@ -28,7 +28,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className="mb-10">
           <ul className="flex flex-col gap-2">
             <li className="text-2xl cursor-pointer">Company</li>
             <li className="text-[15px] text-gray-300 cursor-pointer">About</li>
@@ -40,7 +40,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className="mb-10">
           <ul className="flex flex-col gap-2">
             <li className="text-2xl cursor-pointer">Resources</li>
             <li className="text-[15px] text-gray-300 cursor-pointer">
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h1 className="text-2xl">Social Links</h1>
+          <h1 className="text-2xl mb-10">Social Links</h1>
           <div className="flex gap-2 mt-2">
             <img
               src="Instagram.png"
@@ -83,10 +83,10 @@ export default function Footer() {
       </div>
       <div className="bg-[#101727] text-white px-50 py-10">
         <div className="border-t border-white my-10"></div>
-        <div className="flex justify-between text-sm text-gray-400">
-          <p>© 2026 DigiTools. All rights reserved.</p>
+        <div className="flex flex-col md:flex-row justify-between text-sm text-gray-400">
+          <p className="text-center">© 2026 DigiTools. All rights reserved.</p>
 
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row gap-6 text-center">
             <span className="cursor-pointer">Privacy Policy</span>
             <span className="cursor-pointer">Terms of Service</span>
             <span className="cursor-pointer">Cookies</span>

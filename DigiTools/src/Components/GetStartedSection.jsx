@@ -1,11 +1,11 @@
 export default function GetStartedSection() {
   return (
     <div className="flex flex-col justify-center items-center gap-10 mx-auto max-w-7xl py-10">
-      <h1 className="text-5xl font-bold">Get Started In 3 Steps</h1>
-      <p className="text-gray-400 text-[20px]">
+      <h1 className="text-5xl font-bold text-center">Get Started In 3 Steps</h1>
+      <p className="text-gray-400 text-[20px] text-center">
         Start using premium digital tools in minutes, not hours.
       </p>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 mx-10 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="flex flex-col md:flex-row justify-center items-center gap-10 relative  bg-gray-100 p-10 rounded-lg outline outline-gray-300">
           <div className="bg-purple-700 text-white p-3 rounded-full text-[15px] absolute top-4 right-4 ">
             01

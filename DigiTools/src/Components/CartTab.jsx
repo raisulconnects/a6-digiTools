@@ -4,7 +4,7 @@ export default function CartTab({ cartItems, setCartItems }) {
   const total = cartItems.reduce((acc, item) => acc + item.price, 0);
 
   return (
-    <div className="w-6xl max-w-2xl mx-auto outline outline-gray-300 p-5 rounded-lg">
+    <div className="w-6xl max-w-[400px] md:max-w-2xl outline outline-gray-300 p-5 rounded-lg">
       <h2 className="text-lg font-semibold mb-4">Your Cart</h2>
 
       {cartItems.length === 0 ? (
@@ -49,7 +49,7 @@ export default function CartTab({ cartItems, setCartItems }) {
 
           {/* Checkout Button */}
           <button
-            className="mt-2 w-full py-3 rounded-full text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
+            className="mt-2 py-3 rounded-full text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
             onClick={() => {
               setCartItems([]);
               toast.success("Checkout successful!");
