@@ -72,27 +72,5 @@
     "tagType": "popular",
     "features": ["200+ templates", "Advanced analytics", "24/7 support"],
     "icon": "🔥"
-  },
-  {
-    "id": 7,
-    "name": "Freelancer Pack",
-    "description": "Tailored for freelancers and solo creators.",
-    "price": 49,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": ["50+ templates", "Client management", "Export to PDF"],
-    "icon": "💼"
-  },
-  {
-    "id": 8,
-    "name": "Student Plan",
-    "description": "Budget-friendly plan for students.",
-    "price": 5,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": ["15+ templates", "Basic customization", "Email support"],
-    "icon": "🎓"
   }
 ]

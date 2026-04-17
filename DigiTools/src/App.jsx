@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import StatsSection from "./Components/StatsSection";
 import DigitalToolsSection from "./Components/DigitalToolsSection";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [section, setSection] = useState("products");
@@ -20,6 +21,7 @@ function App() {
         cartItems={cartItems}
         setCartItems={setCartItems}
       />
+      <ToastContainer />
     </>
   );
 }

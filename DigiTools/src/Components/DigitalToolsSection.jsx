@@ -1,3 +1,6 @@
+import CartTab from "./CartTab";
+import ProductsTab from "./ProductsTab";
+
 export default function DigitalToolsSection({
   section,
   setSection,
@@ -31,6 +34,14 @@ export default function DigitalToolsSection({
         >
           Cart {cartItems.length > 0 && `(${cartItems.length})`}
         </button>
+      </div>
+
+      <div>
+        {section === "products" ? (
+          <ProductsTab setCartItems={setCartItems} />
+        ) : (
+          <CartTab cartItems={cartItems} setCartItems={setCartItems} />
+        )}
       </div>
     </div>
   );
