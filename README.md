@@ -14,3 +14,5 @@ A modern and responsive digital tools e-commerce platform built with React, feat
 - 🛒 **Shopping Cart** - Add/remove products with real-time cart updates and toast notifications
 - 📱 **Responsive Design** - Fully responsive layout that works on all devices
 - 💳 **Pricing Plans** - Multiple pricing tiers with feature comparison
+
+# Live Link: https://diggitools.netlify.app/
